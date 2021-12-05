@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@800;900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin:0;
+    padding: 0;
+    font-family: 'Poppins', 'Nunito Sans';
+}
+body {
+    background-color: rgb(177, 177, 177);
+    height: 100%;
+    width: 100%;
+    /* color: #203774; */
+    /* color: #4868BD; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    margin: 3em 0;
+}
+
+.container-card {   
+    width: 859px;
+    height: 928px;
+    background-color: #FFFFFF;
+    border-radius: 1.5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    /* TOP HEAD CARD */
+.registro { 
+    background-color: #203774;
+    border-radius: 1.5em 1.5em 0 0;
+    color: #FFFFFF;
+    height: 12%;
+    width: 100%;
+    position: relative;
+}
+        .titulo {   
+        font-weight: 400;
+        font-size: 1.9em;
+        display: inline;
+        float: left;
+        margin: 1em 0 0 1em;
+        }
+
+        .close-x {
+            display: inline;
+            width: 26px;
+            height: 26px;
+            float: right;
+            margin: 2.5em 2em 0 0;
+            
+        }
+
+    /* DATE */
+
+.mesdia {    
+    display: flex;
+    justify-content: center;
+    margin: 3.5em 0;
+    text-align: center;
+}
+
+        h2{
+            font-family: "nunito sans";
+            font-weight: 900;
+            font-size: 2.5em;
+        }
+        .date p { 
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: 800;
+            font-size: 1.3em;
+        }
+
+        .fas{ 
+            margin: 1em 2em 0 2em;
+            font-size: 1.5em;
+        }
+
+        .fas:hover{ 
+            color: gray;
+        }
+      
+
+    /* CARD  */
+
+.card {
+    background-color: #203774;
+    width: 60%;
+    height: 25%;
+    color: #FFFFFF;
+    border-radius: 1em;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 0 8px 12px -8px #4868BD;
+}
+
+        .b1{
+            font-family: 'poppins';
+        }
+
+        .profesion { 
+            font-size: 1.5em;
+            font-weight: 600;
+            margin-bottom: 0.8em ;
+        }
+        /* TIENEN EL MISMO VALOR DE SEPARACION POR ESO ESTAN JUNTAS 1 SEPARA PROFESION DE HORA Y EL OTRO LA CAJA */
+        .hours, .c1{
+            margin-bottom: 3em;
+        }
+
+        .hours {    
+            font-size: 0.9em;
+            font-weight: 300;
+        }
+
+        .b1 .b2{
+            position: relative;
+        }
+        .avatar{
+            width: 42px;
+            height: 42px;
+            border-radius: 50%;
+            border: 3px solid #4868BD;
+            display: inline;
+            vertical-align: middle;
+            
+        }
+        .name {
+            display: inline;
+            margin-left:0.5em;
+        }
+
+        /* VOS SOS UN BOTON */
+
+        .b2 a{
+            text-decoration: none;
+            color: #000000;
+            padding: 10px 30px;
+            background-color: aliceblue;
+            border-radius: 0.2em;
+            margin-bottom: 10em;
+            font-weight: 600;
+        }
+
+        .b2 {
+            margin-bottom: 7em;
+        }
